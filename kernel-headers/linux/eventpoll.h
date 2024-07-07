@@ -92,9 +92,5 @@ static __inline__ void ep_take_care_of_epollwakeup(struct epoll_event *epev)
 	epev->events &= ~EPOLLWAKEUP;
 }
 #endif
-<<<<<<< HEAD:kernel-headers/linux/eventpoll.h
-#endif /* _LINUX_EVENTPOLL_H */
-=======
 #endif /* __KERNEL__ */
 #endif /* _UAPI_LINUX_EVENTPOLL_H */
->>>>>>> 03ad7cd79479 (epoll: drop struct epoll_event definition):include/uapi/linux/eventpoll.h
